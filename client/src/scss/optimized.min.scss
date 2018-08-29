@@ -1,0 +1,18 @@
+@mixin w {
+  width: 200px;
+  height: 200px;
+}
+
+.container1,
+.container2 {
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+@import 'container/container';
+@import 'container/bkg';
+
+body {
+  display: flex;
+}

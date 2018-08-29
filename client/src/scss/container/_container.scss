@@ -1,0 +1,9 @@
+.container1 {
+  @include w;
+  background: #1abc9c;
+}
+
+.container2 {
+  @include w;
+  background: #2c3e50;
+}
